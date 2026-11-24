@@ -38,8 +38,8 @@ where full_name like 'A%';
 select name, price 
 from products 
 where category = 'Furniture'
-order by price asc;
-
+order by price asc
+limit 5;
 
 -- 7.средний ценовой диаопазон
 select name, category, price 
