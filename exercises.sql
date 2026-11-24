@@ -34,11 +34,12 @@ select full_name, email
 from users
 where full_name like 'A%';
 
--- 6.самая дешевая мебель 
+-- 6.самая дешевая мебель
 select name, price 
 from products 
 where category = 'Furniture'
 order by price asc;
+
 
 -- 7.средний ценовой диаопазон
 select name, category, price 
